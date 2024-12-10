@@ -1,11 +1,11 @@
-# Small-Object-Detection-Benchmarks-FullImageVsGOIS
+# Small-Object-Detection-Benchmarks-FullImageVsGOIS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USERNAME>/<REPOSITORY>/blob/<BRANCH>/<PATH_TO_NOTEBOOK>)
+
 
 ## **Quick Steps for COCO Evaluation**
 
 This benchmark evaluates **Full Image Inference** vs. **Guided-Object Inference with Slicing (GOIS)** for small object detection using COCO metrics. Results are based on a subset of 970 images (15%) from the **VisDrone-2019-Train** dataset.
 ### **1. Clone the Repository**
-Clone this repository to access the required files:
-git clone https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS.git
+Clone this repository to access the required files:[clone] (https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS.git)
 cd Small-Object-Detection-Benchmarks-Full_ImageVsGOIS
 ## **Instructions**:
 1. pip install pycocotools    .
