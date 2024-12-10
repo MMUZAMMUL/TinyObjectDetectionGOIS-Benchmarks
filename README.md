@@ -11,14 +11,14 @@ cd Small-Object-Detection-Benchmarks-Full_ImageVsGOIS
 1. pip install pycocotools    .
 2. Open evaluation.py        .
 3. Update the paths:            .
-Ground Truth Path: Set the path for [Ground_Truth] (https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/blob/main/Ground_Trouth-COCO.json) & Prediction Path: Download the prediction .json file for either Full Image or GOIS benchmarks and set its path..
+Ground Truth Path: Set the path for Ground_Truth & Prediction Path: Download the prediction .json file for either Full Image or GOIS benchmarks and set its path..
 4. Run python evaluation.py
 
 ---
 
 # Full Image Inference Results with Seven Different Models
 
-| Model           | Download Link                                                                                     | mAP@0.50:0.95 | mAP@0.50 | mAP@0.75 | mAP-Small | mAP-Medium | mAP-Large | AR@1 | AR@10 | AR@100 | AR-Small | AR-Medium | AR-Large | F1 Score |
+| Model           | Predictions-Link                                                                                     | mAP@0.50:0.95 | mAP@0.50 | mAP@0.75 | mAP-Small | mAP-Medium | mAP-Large | AR@1 | AR@10 | AR@100 | AR-Small | AR-Medium | AR-Large | F1 Score |
 |-----------------|--------------------------------------------------------------------------------------------------|---------------|----------|----------|-----------|------------|-----------|------|-------|--------|----------|-----------|----------|----------|
 | YOLO11          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo11/FI_yolo11n.json)  | 0.12          | 0.43     | 0.12     | 0.02      | 0.14       | 0.18      | 0.23 | 0.27  | 0.29   | 0.04     | 0.49      | 1.09     | 0.17     |
 | RT-DETR-L       | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/RT-DETRv1/FI_rtder-l.json) | 0.18          | 0.67     | 0.17     | 0.56      | 0.20       | 0.27      | 0.34 | 0.42  | 1.01   | 0.44     | 1.44      | 2.45     | 0.61     |
@@ -31,7 +31,7 @@ Ground Truth Path: Set the path for [Ground_Truth] (https://github.com/MMUZAMMUL
 
 # Guided-Object Inference Slicing (GOIS) Results with Seven Different Models
 
-| Model           | Download Link                                                                                          | mAP@0.50:0.95 | mAP@0.50 | mAP@0.75 | mAP-Small | mAP-Medium | mAP-Large | AR@1 | AR@10 | AR@100 | AR-Small | AR-Medium | AR-Large | F1 Score |
+| Model           | Predictions-Link                                                                                            | mAP@0.50:0.95 | mAP@0.50 | mAP@0.75 | mAP-Small | mAP-Medium | mAP-Large | AR@1 | AR@10 | AR@100 | AR-Small | AR-Medium | AR-Large | F1 Score |
 |-----------------|------------------------------------------------------------------------------------------------------|---------------|----------|----------|-----------|------------|-----------|------|-------|--------|----------|-----------|----------|----------|
 | YOLO11          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/GOIS-YOLO11/GOIS_yolo11n.json) | 0.33          | 0.51     | 0.34     | 0.10      | 0.57       | 0.96      | 0.27 | 0.68  | 0.87   | 0.33     | 1.40      | 1.93     | 0.47     |
 | RT-DETR-L       | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/GOIS-RT/GOIS_rtdetr-l.json)       | 0.61          | 0.94     | 0.63     | 0.22      | 0.95       | 1.49      | 0.46 | 1.16  | 1.71   | 1.03     | 2.25      | 2.73     | 0.90     |
