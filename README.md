@@ -11,7 +11,7 @@ cd Small-Object-Detection-Benchmarks-Full_ImageVsGOIS
 1. pip install pycocotools    .
 2. Open evaluation.py        .
 3. Update the paths:            .
-Ground Truth Path: Set the path for Ground_Truth.json & Prediction Path: Download the prediction .json file for either Full Image or GOIS benchmarks and set its path..
+Ground Truth Path: Set the path for [Ground_Truth] (https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/blob/main/Ground_Trouth-COCO.json) & Prediction Path: Download the prediction .json file for either Full Image or GOIS benchmarks and set its path..
 4. Run python evaluation.py
 
 ---
