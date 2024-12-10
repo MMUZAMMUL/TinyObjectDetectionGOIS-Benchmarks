@@ -1,5 +1,5 @@
 # Small-Object-Detection-Benchmarks-FullImageVsGOIS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USERNAME>/<REPOSITORY>/blob/<BRANCH>/<PATH_TO_NOTEBOOK>)
-
+BY MUZAMMUL(ZJU)
 
 ## **Quick Steps for COCO Evaluation**
 
