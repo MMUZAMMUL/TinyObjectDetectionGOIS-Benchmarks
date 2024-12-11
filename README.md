@@ -1,5 +1,10 @@
 # Small-Object-Detection-Benchmarks-FullImageVsGOIS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USERNAME>/<REPOSITORY>/blob/<BRANCH>/<PATH_TO_NOTEBOOK>)
 BY MUZAMMUL(ZJU)
+# Guided Object Inference Slicing (GOIS): A Novel Framework for Enhancing Tiny Object Detection in UAV High-Resolution Imagery Using YOLO and RT-DETR 
+Here is a demonstration video for the project:
+
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
 
 ## **Quick Steps for COCO Evaluation**
 
