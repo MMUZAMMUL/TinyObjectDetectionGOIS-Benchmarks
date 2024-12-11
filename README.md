@@ -3,7 +3,7 @@ BY MUZAMMUL(ZJU)
 # Guided Object Inference Slicing (GOIS): A Novel Framework for Enhancing Tiny Object Detection in UAV High-Resolution Imagery Using YOLO and RT-DETR 
 Here is a demonstration video for the project:
 
-[![Watch complete project video]()](https://youtu.be/T5t5eb_w0S4)
+[![Watch complete project video](https://youtu.be/T5t5eb_w0S4)
 
 
 ## **Quick Steps for COCO Evaluation**
