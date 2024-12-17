@@ -1,6 +1,6 @@
-# Small-Object-Detection-Benchmarks-FullImageVsGOIS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USERNAME>/<REPOSITORY>/blob/<BRANCH>/<PATH_TO_NOTEBOOK>)
+# Tiny Object Dectection-Benchmarks-FullImage Vs GOIS [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<USERNAME>/<REPOSITORY>/blob/<BRANCH>/<PATH_TO_NOTEBOOK>)
 BY MUZAMMUL(ZJU)
-# Guided Object Inference Slicing (GOIS): A Novel Framework for Enhancing Tiny Object Detection in UAV High-Resolution Imagery Using YOLO and RT-DETR 
+# Enhancing Tiny Object Detection Without Fine-Tuning: Dynamic Adaptive Guided Object Inference Slicing Framework with Latest YOLO Models and RT-DETR Transformer
 Here is a demonstration video for the project:
 
 [![Watch the video](assets/321.png)](https://youtu.be/T5t5eb_w0S4)
@@ -9,7 +9,7 @@ Here is a demonstration video for the project:
 
 ## **Quick Steps for COCO Evaluation**
 
-This benchmark evaluates **Full Image Inference** vs. **Guided-Object Inference with Slicing (GOIS)** for small object detection using COCO metrics. Results are based on a subset of 970 images (15%) from the **VisDrone-2019-Train** dataset.
+This benchmark evaluates **Full Image Inference Detection** vs. ** Dynamic Adaptive Guided-Object Inference Slicing (GOIS)** for small object detection using COCO metrics. Results are based on a subset of 970 images (15%) from the **VisDrone-2019-Train** dataset.
 ### **1. Clone the Repository**
 Clone this repository to access the required files:[clone] (https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS.git)
 cd Small-Object-Detection-Benchmarks-Full_ImageVsGOIS
