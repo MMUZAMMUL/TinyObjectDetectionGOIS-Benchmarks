@@ -26,13 +26,14 @@ Ground Truth Path: Set the path for Ground_Truth & Prediction Path: Download the
 
 | Model           | Predictions-Link                                                                                     | mAP@0.50:0.95 | mAP@0.50 | mAP@0.75 | mAP-Small | mAP-Medium | mAP-Large | AR@1 | AR@10 | AR@100 | AR-Small | AR-Medium | AR-Large | F1 Score |
 |-----------------|--------------------------------------------------------------------------------------------------|---------------|----------|----------|-----------|------------|-----------|------|-------|--------|----------|-----------|----------|----------|
-| YOLO11          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo11/FI_yolo11n.json)  | 0.12          | 0.43     | 0.12     | 0.02      | 0.14       | 0.18      | 0.23 | 0.27  | 0.29   | 0.04     | 0.49      | 1.09     | 0.17     |
-| RT-DETR-L       | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/RT-DETRv1/FI_rtder-l.json) | 0.18          | 0.67     | 0.17     | 0.56      | 0.20       | 0.27      | 0.34 | 0.42  | 1.01   | 0.44     | 1.44      | 2.45     | 0.61     |
-| YOLOv10         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolov10-v1/FI_yolov10n.json) | 0.13          | 0.44     | 0.13     | 0.45      | 0.14       | 0.19      | 0.23 | 0.29  | 0.27   | 0.02     | 0.38      | 1.18     | 0.17     |
-| YOLOv9          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov9-v1/FI_YOLOv9c.json)  | 0.02          | 0.11     | 0.02     | 0.06      | 0.03       | 0.03      | 0.04 | 0.04  | 0.02   | 0.17     | 0.12      | 0.22     | 0.52     |
-| YOLOv8n         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov8-v1/FI_yolov8n.json)  | 0.23          | 0.67     | 0.18     | 0.72      | 0.24       | 0.32      | 0.42 | 0.46  | 0.41   | 0.10     | 0.50      | 1.22     | 0.19     |
-| YOLOv5n         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov5-v1/FI_yolov5su.json)  | 0.57          | 1.34     | 0.63     | 1.33      | 0.54       | 0.79      | 0.90 | 1.01  | 1.18   | 1.20     | 1.51      | 2.22     | 1.79     |
-| YOLOv8s-WorldV2 | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo8world-v1/FI_yolov8s-worldv2.json) | 0.12          | 0.32     | 0.13     | 0.30      | 0.15       | 0.16      | 0.21 | 0.42  | 0.46   | 0.11     | 0.75      | 1.79     | 0.30     |
+| YOLO11          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo11/FI_yolo11n.json)  | 0.12          | 0.18     | 0.13     | 0.02      | 0.23       | 0.57      | 0.12 | 0.27  | 0.29   | 0.04     | 0.49      | 1.09     | 0.17     |
+| RT-DETR-L       | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/RT-DETRv1/FI_rtder-l.json) | 0.43          | 0.67     | 0.44     | 0.11      | 0.67       | 1.34      | 0.32 | 0.81  | 1.01   | 0.44     | 1.44      | 2.45     | 0.61     |
+| YOLOv10         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolov10-v1/FI_yolov10n.json) | 0.12          | 0.17     | 0.13     | 0.02      | 0.18       | 0.63      | 0.13 | 0.25  | 0.27   | 0.02     | 0.38      | 1.18     | 0.17     |
+| YOLOv9          | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov9-v1/FI_YOLOv9c.json)  | 0.41          | 0.56     | 0.45     | 0.06      | 0.72       | 1.33      | 0.30 | 0.65  | 0.73   | 0.17     | 1.20      | 2.22     | 0.52     |
+| YOLOv8n         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov8-v1/FI_yolov8n.json)  | 0.14          | 0.20     | 0.14     | 0.03      | 0.24       | 0.54      | 0.15 | 0.29  | 0.32   | 0.04     | 0.50      | 1.22     | 0.19     |
+| YOLOv5n         | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/Yolov5-v1/FI_yolov5su.json)  | 0.18          | 0.27     | 0.19     | 0.03      | 0.32       | 0.79      | 0.16 | 0.36  | 0.41   | 0.10     | 0.67      | 1.51     | 0.25     |
+| YOLOv8s-WorldV2 | [Download](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo8world-v1/FI_yolov8s-worldv2.json) | 0.23          | 0.34     | 0.23     | 0.04      | 0.42       | 0.90      | 0.21 | 0.42  | 0.46   | 0.11     | 0.75      | 1.79     | 0.30     |
+
 
 
 # Guided-Object Inference Slicing (GOIS) Results with Seven Different Models
@@ -49,16 +50,16 @@ Ground Truth Path: Set the path for Ground_Truth & Prediction Path: Download the
 
 
 
-# Percentage(%age) improvement achived by GOIS over Full image 
 
-***
+# Percentage(%age) improvement achived by GOIS over Full image 
+****
 | Metric         | YOLO11 %↑ | RT-DETR-L %↑ | YOLOv10 %↑ | YOLOv9 %↑ | YOLOv8n %↑ | YOLOv5n %↑ | YOLOv8s-WorldV2 %↑ |
 | -------------- | --------- | ------------ | ---------- | --------- | ---------- | ---------- | ------------------- |
 | mAP@0.50:0.95  | 175.0     | 41.86        | 158.33     | 29.27     | 114.29     | 111.11     | 73.91               |
 | mAP@0.50       | 183.33    | 40.3         | 182.35     | 35.71     | 135.0      | 114.81     | 76.47               |
 | mAP@0.75       | 161.54    | 43.18        | 153.85     | 28.89     | 128.57     | 115.79     | 86.96               |
-| mAP-Small      | 400.0     | 100.0        | 300.0      | 200.0     | 325.0      | 433.33     | 300.0               |
-| mAP-Medium     | 147.83    | 41.79        | 211.11     | 25.0      | 120.83     | 103.13     | 61.9                |
+| mAP-Small      | 400.0     | 100.0        | 300.0      | 200.0     | 333.33     | 433.33     | 300.0               |
+| mAP-Medium     | 147.83    | 41.79        | 211.11     | 25.0      | 120.83     | 103.12     | 61.9                |
 | mAP-Large      | 68.42     | 11.19        | 47.62      | -11.28    | 79.63      | 29.11      | 12.22               |
 | AR@1           | 125.0     | 43.75        | 100.0      | 33.33     | 86.67      | 81.25      | 71.43               |
 | AR@10          | 151.85    | 43.21        | 144.0      | 40.0      | 131.03     | 97.22      | 100.0               |
