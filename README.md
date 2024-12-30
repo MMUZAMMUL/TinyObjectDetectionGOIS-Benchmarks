@@ -9,7 +9,7 @@ Here is a demonstration video for the project:
 # Section 1: Without Fine Tuning 15% Dataset Subset(970 Images) Inference Results VisDrone2019Train Dataset
 
 ## Comparative Results for FI-Det and GOIS-Det
-This table presents the Average Precision (AP) and Average Recall (AR) metrics for seven models. Each model includes rows for FI-Det, GOIS-Det, and the percentage improvement achieved by GOIS over FI-Det. Downloadable links for FI-Det and GOIS-Det results are included.Ground Truth COCO for this evaluation available at | [15%TraineDatasetGT](https://github.com/MMUZAMMUL/TinyObjectDetectionGOIS-Benchmarks/blob/main/Ground_Trouth-COCO.json)
+This table presents the Average Precision (AP) and Average Recall (AR) metrics for seven models. Each model includes rows for FI-Det, GOIS-Det, and the percentage improvement achieved by GOIS over FI-Det. Downloadable links for FI-Det and GOIS-Det results are included.Ground Truth COCO for this evaluation available at | [15%TraineDatasetGT]https://github.com/MMUZAMMUL/TinyObjectDetectionGOIS-Benchmarks/blob/main/Ground_Trouth-COCO.json
 
 | **Model** | **Download Links**              | **mAP@0.50:0.95** | **mAP@0.50** | **mAP@0.75** | **mAP-Small** | **mAP-Medium** | **mAP-Large** | **AR@1** | **AR@10** | **AR@100** | **AR-Small** | **AR-Medium** | **AR-Large** | **F1 Score** |
 |-----------|---------------------------------|-------------------|--------------|--------------|---------------|----------------|---------------|----------|-----------|------------|--------------|---------------|--------------|--------------|
