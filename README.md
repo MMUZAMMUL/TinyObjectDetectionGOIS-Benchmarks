@@ -6,7 +6,7 @@ Here is a demonstration video for the project:
 [![Watch the video](assets/321.png)](https://youtu.be/T5t5eb_w0S4)
 (https://youtu.be/T5t5eb_w0S4)
 
-# Section 1: Without Fine Tuning 15% Dataset Subset VisDrone2019Train Dataset
+# Section 1: Without Fine Tuning 15% Dataset Subset(970 Images) Inference Results VisDrone2019Train Dataset
 
 ## Comparative Results for FI-Det and GOIS-Det
 This table presents the Average Precision (AP) and Average Recall (AR) metrics for seven models. Each model includes rows for FI-Det, GOIS-Det, and the percentage improvement achieved by GOIS over FI-Det. Downloadable links for FI-Det and GOIS-Det results are included.
@@ -28,7 +28,7 @@ This table presents the Average Precision (AP) and Average Recall (AR) metrics f
 | YOLOv8s   | [FI-Det](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo8world-v1/FI_yolov8s-worldv2.json), [GOIS-Det](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/GOIS-YOLOWORLD/GOIS_yolov8s-worldv2.json) | 0.23 / 0.40   | 0.34 / 0.60   | 0.23 / 0.43   | 0.04 / 0.16    | 0.42 / 0.68     | 0.90 / 1.01     | 0.21 / 0.36  | 0.42 / 0.84   | 0.46 / 1.03   | 0.11 / 0.48    | 0.75 / 1.59     | 1.79 / 1.97     | 0.30 / 0.58  |
 
 
-# Section 2: Fine Tuning Full Dataset Subset VisDrone2019Train Dataset
+# Section 2: Fine Tuning Models with 10 epoches Visdrone Traning and then Inference results  on  Full Dataset(6,471 Images) VisDrone2019Train 
 
 ## Comparative Results for FI-Det and GOIS-Det
 This table presents the Average Precision (AP) and Average Recall (AR) metrics for five models (YOLO11, YOLOv10, YOLOv9, YOLOv8, YOLOv5). Each model includes three rows: FI-Det results, GOIS-Det results, and % improvement achieved by GOIS. Downloadable links for FI-Det and GOIS-Det results are included in the first column next to the model name.
