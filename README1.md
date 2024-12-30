@@ -6,10 +6,10 @@ Here is a demonstration video for the project:
 [![Watch the video](assets/321.png)](https://youtu.be/T5t5eb_w0S4)
 (https://youtu.be/T5t5eb_w0S4)
 
-
+Section1: WITHOUT FINE TUNING 15% DATASET SUBSET VISDRONE2019Train DATASET
 ## **Quick Steps for COCO Evaluation**
 
-This benchmark evaluates **Full Image Inference Detection** vs. ** Dynamic Adaptive Guided-Object Inference Slicing (GOIS)** for small object detection using COCO metrics. Results are based on a subset of 970 images (15%) from the **VisDrone-2019-Train** dataset.
+This benchmark evaluates **Full Image Inference Detection** vs. ** Guided-Object Inference Slicing (GOIS)** for small object detection using COCO metrics. Results are based on a subset of 970 images (15%) from the **VisDrone-2019-Train** dataset.
 ### **1. Clone the Repository**
 Clone this repository to access the required files:[clone] (https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS.git)
 cd Small-Object-Detection-Benchmarks-Full_ImageVsGOIS
@@ -65,3 +65,32 @@ Ground Truth Path: Set the path for Ground_Truth & Prediction Path: Download the
 
 
 
+
+
+# Section 2: Fine Tuning Full Dataset Subset VisDrone2019Train Dataset
+
+## Comparative Results for FI-Det and GOIS-Det
+This table presents the Average Precision (AP) and Average Recall (AR) metrics for five models (YOLO11, YOLOv10, YOLOv9, YOLOv8, YOLOv5). Each model includes three rows: FI-Det results, GOIS-Det results, and % improvement achieved by GOIS. Downloadable links for FI-Det and GOIS-Det results are included in the first column next to the model name.
+
+| **Model** | **FI-Det File** | **GOIS-Det File** | **AP@[IoU=0.50:0.95]** | **AP@[IoU=0.50]** | **AP@[IoU=0.75]** | **AP-Small** | **AP-Medium** | **AP-Large** | **AR@1** | **AR@10** | **AR@100** | **AR-Small** | **AR-Medium** | **AR-Large** | **F1 Score** |
+|-----------|-----------------|-------------------|-------------------------|-------------------|-------------------|--------------|---------------|--------------|----------|-----------|------------|--------------|---------------|--------------|--------------|
+| YOLO11    | [Download](#)   | [Download](#)    | 0.12                   | 0.171            | 0.119            | 0.024        | 0.159         | 0.283        | 0.045    | 0.112     | 0.137      | 0.035        | 0.208         | 0.349        | 0.17         |
+|           |                 |                   | 0.123                  | 0.193            | 0.132            | 0.072        | 0.164         | 0.151        | 0.054    | 0.152     | 0.208      | 0.132        | 0.274         | 0.227        | 0.47         |
+|           |                 |                   | ↑ 12.01%               | ↑ 12.38%         | ↑ 11.26%         | ↑ 196.90%    | ↑ 2.94%       | ↓ 46.71%     | ↑ 18.81% | ↑ 35.46%  | ↑ 51.17%   | ↑ 278.66%    | ↑ 31.44%      | ↓ 34.90%     | ↑ 176.47%    |
+| YOLOv10   | [Download](#)   | [Download](#)    | 0.091                  | 0.140            | 0.100            | 0.022        | 0.133         | 0.222        | 0.041    | 0.097     | 0.117      | 0.029        | 0.178         | 0.278        | 0.17         |
+|           |                 |                   | 0.099                  | 0.156            | 0.107            | 0.061        | 0.130         | 0.100        | 0.047    | 0.127     | 0.172      | 0.109        | 0.219         | 0.159        | 0.44         |
+|           |                 |                   | ↑ 8.88%                | ↑ 11.40%         | ↑ 7.08%          | ↑ 176.54%    | ↓ 2.30%       | ↓ 54.85%     | ↑ 14.18% | ↑ 31.01%  | ↑ 46.09%   | ↑ 279.22%    | ↑ 22.50%      | ↓ 42.82%     | ↑ 158.82%    |
+| YOLOv9    | [Download](#)   | [Download](#)    | 0.212                  | 0.322            | 0.232            | 0.079        | 0.320         | 0.472        | 0.080    | 0.211     | 0.252      | 0.103        | 0.387         | 0.551        | 0.17         |
+|           |                 |                   | 0.187                  | 0.295            | 0.199            | 0.130        | 0.242         | 0.171        | 0.079    | 0.231     | 0.310      | 0.234        | 0.396         | 0.239        | 0.44         |
+|           |                 |                   | ↓ 11.93%               | ↓ 8.15%          | ↓ 14.10%         | ↑ 64.98%     | ↓ 24.20%      | ↓ 63.83%     | ↓ 1.07%  | ↑ 9.85%   | ↑ 22.94%   | ↑ 127.93%    | ↑ 2.38%       | ↓ 56.64%     | ↑ 158.82%    |
+| YOLOv8    | [Download](#)   | [Download](#)    | 0.108                  | 0.168            | 0.118            | 0.025        | 0.158         | 0.290        | 0.046    | 0.113     | 0.136      | 0.032        | 0.209         | 0.365        | 0.17         |
+|           |                 |                   | 0.121                  | 0.193            | 0.130            | 0.070        | 0.163         | 0.149        | 0.056    | 0.158     | 0.211      | 0.131        | 0.281         | 0.220        | 0.47         |
+|           |                 |                   | ↑ 11.82%               | ↑ 14.46%         | ↑ 10.03%         | ↑ 178.14%    | ↑ 3.22%       | ↓ 48.67%     | ↑ 22.33% | ↑ 40.05%  | ↑ 55.92%   | ↑ 308.02%    | ↑ 34.65%      | ↓ 39.72%     | ↑ 176.47%    |
+| YOLOv5    | [Download](#)   | [Download](#)    | 0.096                  | 0.150            | 0.104            | 0.019        | 0.138         | 0.270        | 0.040    | 0.098     | 0.119      | 0.026        | 0.181         | 0.329        | 0.17         |
+|           |                 |                   | 0.109                  | 0.174            | 0.116            | 0.059        | 0.150         | 0.134        | 0.050    | 0.139     | 0.188      | 0.111        | 0.254         | 0.205        | 0.54         |
+|           |                 |                   | ↑ 13.61%               | ↑ 16.09%         | ↑ 11.36%         | ↑ 209.43%    | ↑ 9.07%       | ↓ 50.16%     | ↑ 26.22% | ↑ 42.71%  | ↑ 58.12%   | ↑ 329.90%    | ↑ 40.05%      | ↓ 37.62%     | ↑ 216.47%    |
+
+**Notes:**
+- ↑ represents percentage improvement achieved by GOIS-Det over FI-Det.
+- ↓ represents performance degradation in GOIS-Det compared to FI-Det.
+- Replace `#` in `Download` links with the actual URLs for downloadable files.
