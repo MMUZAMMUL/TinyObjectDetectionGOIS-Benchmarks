@@ -1,11 +1,15 @@
-# Tiny Object Dectection-Benchmarks-Full-Image Detection for Inference  Vs Innovative Framework Guided Object Inference Slicing(GOIS) detection results [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Guided_Object_Inference_Slicing_Prediction_Vs_Full_Image_Prediction_Evaluation.ipynb)
-BY MUZAMMUL(ZJU)
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Guided_Object_Inference_Slicing_Prediction_Vs_Full_Image_Prediction_Evaluation.ipynb)
 # Enhancing Tiny Object Detection by apply GOIS on Latest YOLO Models and RT-DETR Transformer, The innovative framework proved its significance both for Fine-Tuned and Not Fined-Tuned Models
-Here is a demonstration video for the project:
+*(Tiny Object Dectection-Benchmarks-Full-Image Detection for Inference  Vs Innovative Framework Guided Object Inference Slicing(GOIS) detection results)
+BY MUZAMMUL(ZJU)
+## Testing Code Steps
 
-[![Watch the video](assets/321.png)](https://youtu.be/T5t5eb_w0S4)
-(https://youtu.be/T5t5eb_w0S4)
-
+### 1. **Download Required Files**
+- **Ground Truth (GT)**: Download the COCO.json file containing the ground truth annotations.
+- **FI-Det COCO.json**: Download the Full Inference Detection results in COCO.json format.
+- **OGIS-Det COCO.json**: Download the Object Guided Inference Slicing Detection results in COCO.json format.
+- Upload the files to your preferred storage location (e.g., Google Drive).
+- Follow step 6,7 in [https://github.com/MMUZAMMUL/GOIS]
 # Section 1: Without Fine Tuning 15% Dataset Subset(970 Images) Inference Results VisDrone2019Train Dataset
 
 ## Comparative Results for FI-Det and GOIS-Det
