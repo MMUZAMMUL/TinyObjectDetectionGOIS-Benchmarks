@@ -1,7 +1,7 @@
- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Guided_Object_Inference_Slicing_Prediction_Vs_Full_Image_Prediction_Evaluation.ipynb)
-# Enhancing Tiny Object Detection by apply GOIS on Latest YOLO Models and RT-DETR Transformer, The innovative framework proved its significance both for Fine-Tuned and Not Fined-Tuned Models
+# Enhancing Tiny Object Detection by apply GOIS on Latest YOLO Models and RT-DETR Transformer, The innovative framework proved its significance both for Fine-Tuned and Not Fined-Tuned Models->BY MUZAMMUL(ZJU)
 *(Tiny Object Dectection-Benchmarks-Full-Image Detection for Inference  Vs Innovative Framework Guided Object Inference Slicing(GOIS) detection results)
-BY MUZAMMUL(ZJU)
+ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Guided_Object_Inference_Slicing_Prediction_Vs_Full_Image_Prediction_Evaluation.ipynb)
+
 ## Testing Code Steps
 
 ### 1. **Download Required Files**
