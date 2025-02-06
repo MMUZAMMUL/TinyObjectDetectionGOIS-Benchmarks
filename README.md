@@ -96,7 +96,7 @@ GOIS dynamically **adjusts slice sizes and overlap rates**, leading to **superio
 
 ---
 
-### 🏆 **Table 1. Comprehensive Performance Comparison on VisDrone2019**
+### 🏆 **Table 4. Comprehensive Performance Comparison on VisDrone2019**
 | **Model** | **Method** | **mAP@0.50:0.95 (%)** | **mAP@0.50 (%)** | **mAP@0.75 (%)** | **AP<sub>Small</sub> (%)** | **AP<sub>Medium</sub> (%)** | **AP<sub>Large</sub> (%)** | **Speed (img/s)** | **FPR (%)** |
 |-----------|-----------|------------------|-------------|-------------|-------------|-------------|-------------|--------------|-----------|
 | **FCOS**  | SAHI     | 17.1  | 29.0  | 12.2  | 11.9  | 20.2  | 15.8  | 3.6  | 18  |
@@ -144,7 +144,7 @@ This benchmark evaluates **object detection models** on the **xView dataset**, f
 
 ---
 
-### 🏆 **Table 1. Comprehensive Performance Comparison on xView**
+### 🏆 **Table 5. Comprehensive Performance Comparison on xView**
 | **Model** | **Method** | **mAP@0.50:0.95 (%)** | **mAP@0.50 (%)** | **mAP@0.75 (%)** | **AP<sub>Small</sub> (%)** | **AP<sub>Medium</sub> (%)** | **AP<sub>Large</sub> (%)** | **Speed (img/s)** | **FPR (%)** |
 |-----------|-----------|------------------|-------------|-------------|-------------|-------------|-------------|--------------|-----------|
 | **FCOS**  | SAHI     | 15.8  | 29.0  | 11.9  | 11.9  | 18.4  | 11.0  | 3.5  | 20  |
