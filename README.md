@@ -1,3 +1,7 @@
+### License
+
+[**MIT License**](LICENSE) - All rights reserved to the author. This project may be used for study and educational purposes, but **redistribution, redevelopment, or use of the code for personal or commercial purposes is strictly prohibited without the author's written consent.**
+
 # Enhancing Tiny Object Detection by applying Guided Object Inference Slicing(GOIS) Complete Benchmarks Evaluated results
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](Guided_Object_Inference_Slicing_Prediction_Vs_Full_Image_Prediction_Evaluation.ipynb)
 
