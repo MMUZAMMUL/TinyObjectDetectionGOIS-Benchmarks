@@ -18,7 +18,7 @@
 ## Comparative Results for FI-Det and GOIS-Det
 This table presents the Average Precision (AP) and Average Recall (AR) metrics for seven models. Each model includes rows for FI-Det, GOIS-Det, and the percentage improvement achieved by GOIS over FI-Det. Downloadable links for FI-Det and GOIS-Det results are included. Ground Truth COCO for this evaluation is available at | [15% Train Dataset GT](https://github.com/MMUZAMMUL/TinyObjectDetectionGOIS-Benchmarks/blob/main/Ground_Trouth-COCO.json)
 
-| **Model** | **mAP-Small** | **AR-Small** | **mAP-Medium** | **mAP-Large** | **AR@1** | **AR@10** | **AR@100** | **AR-Medium** | **AR-Large** | **mAP@0.95** | **mAP@0.50** | **mAP@0.75** |
+| **Model** | **AP-Small** | **AR-Small** | **AP-Medium** | **AP-Large** | **AR@1** | **AR@10** | **AR@100** | **AR-Medium** | **AR-Large** | **mAP@0.95** | **mAP@0.50** | **mAP@0.75** |
 |----------------|---------------|--------------|----------------|---------------|----------|-----------|------------|---------------|--------------|-------------------|--------------|--------------|
 | **YOLO11** [FI-Det](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/yolo11/FI_yolo11n.json), [GOIS-Det](https://github.com/MMUZAMMUL/Small-Object-Detection-Benchmarks-Full_ImageVsGOIS/releases/download/GOIS-YOLO11/GOIS_yolo11n.json) | 0.002 / 0.01 | 0.004 / 0.033 | 0.023 / 0.057 | 0.057 / 0.096 | 0.012 / 0.027 | 0.027 / 0.068 | 0.029 / 0.087 | 0.049 / 0.14 | 0.109 / 0.193 | 0.012 / 0.033 | 0.018 / 0.051 | 0.013 / 0.034 |
 | **% Improve** | **↑ 388.07%** | **↑ 718.09%** | **↑ 152.67%** | **↑ 69.75%** | **↑ 128.48%** | **↑ 154.67%** | **↑ 194.56%** | **↑ 188.51%** | **↑ 77.16%** | **↑ 164.89%** | **↑ 183.25%** | **↑ 160.64%** |
