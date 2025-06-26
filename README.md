@@ -12,7 +12,7 @@
 - **FI-Det COCO.json**: Download the Full Inference Detection results in COCO.json format.
 - **OGIS-Det COCO.json**: Download the Object Guided Inference Slicing Detection results in COCO.json format.
 - Upload the files to your preferred storage location (e.g., Google Drive).
-- Follow step 6,7 in [https://github.com/MMUZAMMUL/GOIS]
+- Follow step 6,7 in 
 # Section 1: Without Fine Tuning 15% Dataset Subset(970 Images) Inference Results VisDrone2019Train Dataset
 
 ## Comparative Results for FI-Det and GOIS-Det
